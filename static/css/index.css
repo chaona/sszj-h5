@@ -165,6 +165,21 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	position: relative;
+}
+
+.menu .menu-img .tips-number {
+	position: absolute;
+	top: -10px;
+	right: -15px;
+	background-color: #F10D1A;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	line-height: 18px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
 }
 
 .menu .menu-img img {
